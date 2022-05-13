@@ -1,0 +1,54 @@
+  .grid {
+      display: grid;
+      margin-top: 2pc;
+      grid-template-columns: repeat(4, 1fr);
+      grid-auto-rows: 100px;
+      column-gap: 0.5em;
+      grid-column-gap: 0.5em;
+      row-gap: 0.5em;
+      grid-row-gap: 0.5em;
+  }
+  
+  .cards:hover {
+      background-color: cadetblue;
+      border-radius: 5px;
+      text-align: justify;
+      margin-left: 10px;
+      box-shadow: 5px 3px 3px 8px rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+  }
+  
+  .cards {
+      padding: 8px 7px;
+      font-size: medium;
+      background-color: cadetblue;
+      border-radius: 5px;
+      text-align: justify;
+      margin-left: 10px;
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      transition: 0.3s;
+  }
+  
+  .three {
+      font-weight: 470;
+      margin-left: 10px;
+      text-align: center;
+      background-color: greenyellow;
+      border-radius: 5px;
+      font-size: large;
+      box-shadow: 2px 3px 3px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+  .logout {
+      box-shadow: 2px 1px 2px 3px rgba(0, 0, 0, 0.2);
+      right: 1pc;
+      position: absolute;
+      margin-top: -4pc;
+      z-index: 999;
+      height: 2pc;
+      width: 5pc;
+      background-color: lightseagreen;
+      color: white;
+      border: 1px;
+      border-radius: 4px;
+  }

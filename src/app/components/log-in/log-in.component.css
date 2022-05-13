@@ -1,0 +1,10 @@
+mat-icon-button {
+    font-size: 200px;
+}
+
+.credentials {
+    top: 1pc;
+    position: relative;
+    color: red;
+    margin-left: 7pc;
+}
